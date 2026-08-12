@@ -2,6 +2,8 @@
 
 An independent English web walkthrough of an academic credit-risk prototype developed at Instituto Tecnológico de Aeronáutica (ITA). The experience explains the project end to end and exposes the central calculations through interactive controls.
 
+**Live walkthrough:** [manresearch.github.io/interpretable-credit-risk-lab](https://manresearch.github.io/interpretable-credit-risk-lab/)
+
 ## What the site demonstrates
 
 - Mamdani-style fuzzy inference over PD and LGD inputs
@@ -26,6 +28,12 @@ Quality checks:
 ```bash
 pnpm lint
 pnpm test
+```
+
+Generate the static GitHub Pages bundle:
+
+```bash
+pnpm export:static
 ```
 
 ## Project structure
